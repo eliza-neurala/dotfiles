@@ -1,0 +1,12 @@
+[user]
+	name = emitchell
+	email = emitchell@neurala.com
+
+[push]
+    default = current
+
+[pull]
+    default = current
+
+[alias]
+    wdiff = diff -w --color-words

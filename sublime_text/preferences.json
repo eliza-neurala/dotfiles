@@ -1,0 +1,15 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Color Scheme/sublime/material-dark.tmTheme",
+	"find_selected_text": true,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_full_path": true,
+	"tab_size": 4,
+	"terminal": "iTerm2-v3.sh",
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

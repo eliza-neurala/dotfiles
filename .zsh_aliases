@@ -1,0 +1,14 @@
+# mySQL
+alias mysql-start='sudo /usr/local/mysql/bin/mysql -p';
+
+# BrainBuilder/BrainBank
+alias brainbank='cd; cd Documents/dev/BrainBank';
+alias brainbuilder='cd; cd Documents/dev/BrainBuilder';
+
+# Sequelize Database
+alias migrate='./bin/sequelize db:migrate';
+alias migrate-test="NODE_ENV='test' migrate";
+alias undo-migrate='./bin/sequelize db:migrate:undo';
+alias undo-migrate-test="NODE_ENV='test' undo-migrate";
+alias refresh="./bin/sequelize db:drop; ./bin/sequelize db:create; migrate";
+alias refresh-test="NODE_ENV='test' ./bin/sequelize db:drop; NODE_ENV='test' ./bin/sequelize db:create; migrate-test";

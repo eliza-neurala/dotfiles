@@ -1,0 +1,3 @@
+function braintest() { DEBUG=1 mocha ./test/$1  };
+function checkout() { git checkout emitchell/$1 };
+function newCheckout() { git checkout -b emitchell/$1 };
