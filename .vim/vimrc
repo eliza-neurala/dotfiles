@@ -11,9 +11,6 @@ set wildmode=full
 
 call plug#begin('~/.vim/plugged')
 
-" add theme options
-Plug 'dikiaap/minimalist'
-
 " tpope it up!
 Plug 'tpope/vim-sensible'
 
@@ -31,5 +28,7 @@ Plug 'editorconfig/editorconfig-vim'
 
 Plug 'Quramy/tsuquyomi'
 call plug#end()
+
+colorscheme camouflage
 
 autocmd FileType typescript setlocal expandtab shiftwidth=4 tabstop=4 completeopt-=menu
