@@ -20,7 +20,7 @@ endif
 hi Cursor           guifg=NONE guibg=#FFFFFF gui=none
 hi Normal           guifg=#D5E285 guibg=#070100 ctermfg=red gui=none
 hi NonText          guifg=#4A4A59 gui=none
-hi LineNr           guifg=#7E8841 guibg=#201A19 ctermfg=yellow gui=none
+hi LineNr           guifg=#7E8841 guibg=#201A19 ctermbg=black ctermfg=darkgreen gui=none
 hi StatusLine       guifg=#00D2D2 guibg=#38290B ctermfg=cyan gui=italic
 hi StatusLineNC     guifg=#00D2D2 guibg=#2F2928 ctermfg=cyan gui=none
 hi VertSplit        guifg=#00D2D2 guibg=#201A19 ctermfg=cyan gui=none
