@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Material Theme Ocean",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "mochaExplorer.cwd": "./test",
+    "mochaExplorer.files": "test/**/*.?s",
+    "mochaExplorer.debuggerConfig": "Debug Mocha Tests",
+    "mochaExplorer.require": "ts-node/register",
+    "mochaExplorer.exit": true,
+    "mochaExplorer.logpanel": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.cursorStyle": "line"
+}
